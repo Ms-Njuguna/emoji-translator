@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.text-add {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.text-add label {
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.text-add textarea {
+    width: 400px;
+    height: 200px;
+    border-radius: 12px;
+    padding: 15px 15px;
+    margin-bottom: 15px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+.translateBtn {
+    border-width: 1px;
+    border-radius: 12px;
+    padding: 5px 9px;
+}
+
+.reverseBtn {
+    border-width: 1px;
+    border-radius: 12px;
+    padding: 5px 9px;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px auto;
+}
+
+#output {
+    max-width: 600px;
+    margin: 15px auto;
+    text-align: center;
+}
